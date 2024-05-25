@@ -18,21 +18,9 @@
     <ClInclude Include="sdl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="animate.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="test.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sdl.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="animate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

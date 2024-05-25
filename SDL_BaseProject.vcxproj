@@ -71,12 +71,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\anuol\Downloads\SDL_BaseProject\SDL_BaseProject\Libraries\SDL\SDL2-2.30.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\anuol\Downloads\SDL_BaseProject\SDL_BaseProject\Libraries\SDL\SDL2-2.30.1\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Emmanuel Odey\Documents\GitHub\Computer_Graphics\SDL_BaseProject\Libraries\SDL\SDL2-2.30.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Emmanuel Odey\Documents\GitHub\Computer_Graphics\SDL_BaseProject\Libraries\SDL\SDL2_image-devel-2.8.2-VC\SDL2_image-2.8.2\lib\x64;C:\Users\Emmanuel Odey\Documents\GitHub\Computer_Graphics\SDL_BaseProject\Libraries\SDL\SDL2-2.30.1\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\anuol\Downloads\SDL_BaseProject\SDL_BaseProject\Libraries\SDL\SDL2-2.30.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\anuol\Downloads\SDL_BaseProject\SDL_BaseProject\Libraries\SDL\SDL2-2.30.1\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\USER\Downloads\SDL_BaseProject\Libraries\SDL\SDL2-2.30.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\USER\Downloads\SDL_BaseProject\Libraries\SDL\SDL2_image-devel-2.8.2-VC\SDL2_image-2.8.2\lib\x64;C:\Users\USER\Downloads\SDL_BaseProject\Libraries\SDL\SDL2-2.30.1\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -88,7 +88,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_image.lib;Shell32.lib;;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -117,7 +117,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_image.lib;Shell32.lib;;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -137,14 +137,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="animate.h" />
     <ClInclude Include="sdl.h" />
-    <ClInclude Include="test.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="animate.cpp" />
     <ClCompile Include="sdl.cpp" />
-    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
